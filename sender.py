@@ -24,7 +24,8 @@ text = '''
    - 🍬 Кислая фруктовая жвачка со вкусом лайма (Lime Bubble Gum) 🍬
    - 🍓🍑 Малиновый лимонад с добавлением нежных долек персика (Peach Raspberry Lemonade) 🍑🍓
  ЦЕНА: 12 РУБ!
- ——
+ ——
+
 '''
 
 import vk_api
@@ -32,7 +33,7 @@ from time import sleep
 from datetime import datetime
 import traceback
 
-vk_session = vk_api.VkApi('+375292938793', '123321AAD)
+vk_session = vk_api.VkApi('+375292938793', '123321AAD')
 vk_session.auth()
 
 vk = vk_session.get_api()
