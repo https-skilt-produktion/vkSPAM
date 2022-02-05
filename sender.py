@@ -57,7 +57,7 @@ def send():
 			print(datetime.today().strftime(f'%H:%M:%S | Все посты были отправлены на сервер. Бот отправляется в режим сна на 20 минут.'))
 			sleep(1200)
 		except Exception as err:
-			print(f'Произошла ошибка:\n', traceback.format_exc()))
+			print(f'Произошла ошибка:\n', traceback.format_exc())
 			print(f'ID Группы:')
 			print(gr)
 	
