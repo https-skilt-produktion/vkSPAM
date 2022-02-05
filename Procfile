@@ -1,1 +1,1 @@
-worker: ./sender.py
+worker: python sender.py
