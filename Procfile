@@ -1,1 +1,1 @@
-worker spammer.py
+worker: ./spammer.py
