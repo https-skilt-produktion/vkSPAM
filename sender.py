@@ -39,7 +39,7 @@ def captcha_handler(captcha):
         Через метод try_again можно попытаться отправить запрос с кодом капчи
     """
 
-    key = input("Enter captcha code {0}: ".format(captcha.get_url())).strip())
+    key = input("Enter captcha code " f(captcha.get_url))
 
     # Пробуем снова отправить запрос с капчей
     return captcha.try_again(key)
